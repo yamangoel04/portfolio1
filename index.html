@@ -7,13 +7,13 @@
   <title>portfolio</title>
   <style>
     * {
-      margin: 0;
-      padding: 0;
+      margin: 0vw;
+      padding: 0vw;
     }
 
     body {
      
-      background-image: url('https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+      /* background-image: url('https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D'); */
       background-size: cover;
       
       background-position: center;
@@ -23,6 +23,7 @@
       background-attachment: fixed;
      
       font-family: Arial, sans-serif;
+      
     }
 
     nav {
@@ -30,12 +31,12 @@
       justify-content: space-around;
       background-color: #8014aa;
       align-items: center;
-      height: 64px;
+      height: 10vh;
 
     }
 
     .left {
-      font-size: 30px;
+      font-size: 4vw;
     }
 
     nav ul {
@@ -45,7 +46,7 @@
 
     nav ul li {
       list-style: none;
-      margin: 0px 25px;
+      margin: 0vw 3vw;
     }
 
     nav ul li a {
@@ -57,17 +58,22 @@
       color: #62aad6;
       font-size: 1.2rem;
     }
+main{
+  display: flex;
+  flex-direction: column;
 
+}
     .first {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 20vw;
       align-items: center;
-      margin: 120px 0;
+      margin: 8vw 0vw;
     }
 
     .leftsection {
-      font-size: 37px;
-      margin: 45px;
+      font-size: 2.5vw;
+      margin: 4vw;
 
 
     }
@@ -78,7 +84,7 @@
 
     img {
       width: 93%;
-      margin: 45px;
+      margin: 4vw;
     }
       #element {
         color: #cc2a86;
@@ -89,7 +95,7 @@
       }
 
       .secondsection {
-        margin: 120px 0px;
+        margin: 8vw 0vw;
         align-items: center;
         height: 60vh;
         display: flex;
@@ -99,56 +105,69 @@
 
       .green {
         max-width: 53vh;
-        font-size: 30px;
+        font-size: 1.8vw;
         color: blueviolet;
       }
 
 
 
       .leftsecond img {
-        margin: 40px;
+        margin: 4vw;
         border-radius: 50%;
 
       }
 
 
-      hr {
+      /* hr {
         border: 0px;
         background-color: blue;
         height: 2px;
 
-      }
+      } */
 
       h1 {
         /* margin: 40px; */
         color: #245f84;
-        font-size: 50px;
+        font-size: 5vw;
       }
 
       .thirdsection {
-        margin: 50px;
+        margin: 9vw 0vw;
         max-width: 80vw;
         height: 50vh;
         display: flex;
         justify-content: space-around;
       }
-
+.leftthird{
+  padding-left: 10vw;
+}
       .rightthird img {
         width: 20%;
-        border-radius: 50px;
+        border-radius: 3vw;
+      }
+      .blue{
+        font-size: 1.4vw;
+    margin: 38vw;
       }
 
       .fourthsection {
-        margin: 50px;
+        margin: 8vw 0vw;
         max-width: 80vw;
-        height: 50vh;
+        height: 58vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
       }
+      .leftfourth{
+        padding-left: 12vw;
+      }
+.red{
+  font-size: 1.2vw;
+ margin: 4vw;
 
+}
       .fifthsection {
-        margin: 120px 0px;
+        margin: 8vw 0vw;
         height: 50vh;
         display: flex;
         align-items: center;
@@ -158,7 +177,7 @@
       .leftfifth {
         max-width: 30vh;
         color: #cf338b;
-        font-size: 25px;
+        font-size: 1.3vw;
       }
 
       .rightfifth img {
@@ -167,13 +186,13 @@
       }
 
       .sixthsection {
-        margin: 50px;
+        margin: 2vw 0vw;
         max-width: 40vw;
         height: 30vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 33px;
+        font-size: 1.8vw;
       }
 
       #element1 {
@@ -181,8 +200,8 @@
       }
 
       .sevensection {
-        margin: 30px;
-
+        margin: 6vw 0vw;
+        padding-left: 12vw;
         height: 30vh;
 
         justify-content: space-around;
@@ -190,7 +209,7 @@
       }
 
       .copyright {
-        font-size: 25px;
+        font-size: 1.2vw;
         justify-content: center;
         display: flex;
       }
@@ -198,6 +217,7 @@
       html {
         scroll-behavior: smooth;
       }
+      
   </style>
 </head>
 
@@ -225,7 +245,7 @@
     </section>
     
     <section id="about" class="secondsection">
-      <div class="leftsecond"><img src="P14.jpg" alt=""></div>
+      <div class="leftsecond"><img src="P14.png" alt=""></div>
       <div class="rightsecond"></div>
       <span>
         <h1>About me</h1>
@@ -240,7 +260,7 @@
     
     <section class="thirdsection">
       <div class="leftthird">
-        <span>
+        <span  class="blue">
           <h1>Skills</h1>
           <h2>Web Development</h2>
           HTML, CSS, JavaScript
@@ -263,7 +283,7 @@
     
     <section id="projects" class="fourthsection">
       <div class="leftfourth">
-        <span>
+        <span class="red">
           <h1> Projects</h1>
           <h2> Myntra Clone</h2>
           <h3>Technologies Used</h3>
@@ -318,11 +338,11 @@
     <section class="sixthsection">
       <span>
         <h1>Interests</h1>
-        <span id="element1"></span>
-        <!-- <h3>Web Development</h3>
+        <!-- <span id="element1"></span> -->
+        <h3>Web Development</h3>
 <h3>Artificial Intelligence</h3>
 <h3>UI/UX Design</h3>
-<h3>Problem Solving</h3> -->
+<h3>Problem Solving</h3>
       </span>
     </section>
     
